@@ -9,16 +9,20 @@
 
 This project builds and compares two supervised Machine Learning models to predict nightly rental prices on Airbnb in Mexico City, with a focus on the business opportunity created by the **2026 FIFA World Cup**.
 
-The analysis is grounded in real operations: the author manages 215+ short-term rental units across **Miguel Hidalgo (Polanco)** and **Cuauhtémoc (Condesa, Roma)** — two of the most premium zones in the CDMX Airbnb market.
+Context: an illustrative analysis built around the operating zones of a furnished-rental company in **Miguel Hidalgo (Polanco)** and **Cuauhtémoc (Condesa, Roma)**, two of the most premium zones in the CDMX Airbnb market. This is an academic project built with public data; it was not implemented in production.
 
 ---
 
 ## Key Findings
 
 - **Random Forest** outperformed the Neural Network across all three metrics (R², MAE, RMSE)
-- **Distance to Estadio Azteca** (constructed via Haversine formula) ranked as the **2nd most important feature** for price prediction — above number of bedrooms
-- NIDO's operating zones command a **44–54% price premium** over the city average
-- Projected additional revenue opportunity during World Cup peak nights: **+$4.9M MXN (~USD 286K)** across 215 units
+- **Distance to Estadio Azteca** (constructed via Haversine formula) ranked as the **2nd most important feature** for price prediction, above number of bedrooms
+
+---
+
+## Illustrative Revenue Scenario (assumption-based, not a validated forecast)
+
+Assuming a +35% price increase, 98% occupancy and 215 units over 30 peak nights, revenue would move from about MXN 10.3M to about MXN 15.2M. The +35% increase, the 98% occupancy and the 215-unit count are my assumptions. The model only supports the relative importance of distance to Estadio Azteca; it does not validate this revenue figure.
 
 ---
 
@@ -54,5 +58,5 @@ The analysis is grounded in real operations: the author manages 215+ short-term 
 ## Author
 
 **Joseph Gonzalez**  
-Sr. Field Operations Staff — NIDO / RentinBA, Mexico City  
-Master's in IT Management (Cloud Computing & Data Science) — Universidad Tecmilenio
+Field Operations Staff (Operations Hub), Mexico City  
+M.S. in IT Management, Data Science specialty, Universidad Tecmilenio
